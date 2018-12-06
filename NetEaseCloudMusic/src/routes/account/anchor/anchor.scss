@@ -1,0 +1,38 @@
+:global {
+  .autoChange {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .ant-carousel .slick-dots li {
+    background: skyblue;
+    button {
+        background: skyblue;
+    }
+  }
+
+  .ant-carousel .slick-dots li .ant-carousel .slick-slide h3 {
+    color: blue;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .banner {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:0 30px;
+    color:#000;
+    z-index: 999;
+    a{
+      z-index: 99;
+    }
+  }
+}
